@@ -1,0 +1,86 @@
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 70px;
+        background-color: #0072bc;
+        display: flex;
+        justify-content: left;
+        padding-left: 15px;
+        z-index: 1;
+    }
+
+    .list-item p {
+        font-size: 14px;
+    }
+
+    #nav li a {
+        padding: 0 8px;
+    }
+    #header .header-img {
+        width: 110px;
+        margin-top: -2px;
+    }
+
+    #header .search-box {
+        background-color: #fff;
+        height: 40px;
+       display: none;
+        margin-top: 14px;
+        border-radius: 10px;
+        width: 190px;
+    }
+    
+    #header .search-ip {
+        border: none;
+        outline: none;
+        padding-right: 10px;
+    }
+    
+    #header .header-search {
+        padding-top: 12px;
+    }
+
+    #header .cart {
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        background-color: rgb(50 145 208);
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    #header .cart .cart-bt {
+        padding-left: 10px;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .slideshow-container {
+        margin: 0 20px;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .category .category-item {
+        margin-left: 56px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    
+}
