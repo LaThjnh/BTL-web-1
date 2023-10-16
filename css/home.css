@@ -10,18 +10,18 @@ html {
 }
 
 .space {
-    height: 32px;
+    height: 2rem;
     background-color: #e9e9e9;
 }
 
 .space-footer {
-    height: 12px;
+    height:  0.75rem;
     background-color: #0072bc;
 }
 
 .row {
-    margin-left: 24px;
-    margin-right: 16px
+    margin-left: 1.5rem;
+    margin-right: 1rem;
 }
 
 .row::after {
@@ -31,8 +31,8 @@ html {
 }
 
 .col {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .clear {
@@ -63,16 +63,16 @@ html {
     top: 0;
     right: 0;
     left: 0;
-    height: 70px;
+    height: 4.375rem;
     background-color: #0072bc;
     display: flex;
-    padding-left: 15px;
+    padding-left: 0.9375rem;
     z-index: 1;
     justify-content: space-between;
 }
 #header .header-img {
-    width: 160px;
-    margin-top: -2px;
+    width: 10rem;
+    margin-top: -0.125rem;
     cursor: pointer;
 }
 
@@ -89,10 +89,10 @@ html {
 }
 
 #nav li a {
-    line-height: 70px;
+    line-height: 4.375rem;
     color: #fff;
     text-decoration: none;
-    padding: 0 16px;
+    padding: 0 1rem;
     display: block;
 }
 
@@ -105,22 +105,22 @@ html {
     top: 100%;
     left: 0;
     display: none;
-    min-width: 200px;
+    min-width: 12.5rem;
     background-color: #fff;
-    box-shadow: 0 0 10px #e7e3e3;
-    border-radius: 10px;
+    box-shadow: 0 0 0.625rem #e7e3e3;
+    border-radius: 0.625rem;
 }
 
 #nav .subnav a {
     color: #000;
-    padding: 0 12px;
-    line-height: 38px;
+    padding: 0 0.75rem;
+    line-height: 2.375rem;
 }
 
 #nav .subnav li:hover a {
     background-color: #026ae3;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 #nav li:hover .subnav {
@@ -129,50 +129,50 @@ html {
 
 #nav .nav-menu,
 #nav .nav-arrow-down {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 #header .search-box {
     background-color: #fff;
-    height: 40px;
+    height: 2.5rem;
     display: flex;
-    padding: 0 12px;
-    margin-top: 14px;
-    border-radius: 10px;
-    width: 250px;
+    padding: 0 0.75rem;
+    margin-top: 0.875rem;
+    border-radius: 0.625rem;
+    width: 15.625rem;
 }
 
 #header .search-ip {
     border: none;
     outline: none;
-    padding-right: 56px;
+    padding-right: 3.5rem;
 }
 
 #header .header-search {
-    padding-top: 12px;
+    padding-top: 0.75rem;
 }
 
 #header .cart {
-    width: 140px;
-    height: 50px;
-    margin-top: 10px;
+    width: 8.75rem;
+    height: 3.125rem;
+    margin-top: 0.625rem;
     background-color: rgb(50 145 208);
     color: #fff;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     cursor: pointer;
 }
 
 #header .cart .cart-bt {
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 #header .register,
 #header .login {
-    font-size: 12px;
+    font-size: 0.75rem;
     display: inline-block;
-    line-height: 70px;
-    padding-right: 16px;
+    line-height: 4.375rem;
+    padding-right: 1rem;
 
 }
 #header .register {
@@ -194,36 +194,36 @@ html {
 
 .container {
     display: flex;
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 
 /*  */
 
 .banner {
-    width: 360px;
-    padding-top: 40px;
+    width: 22.5rem;
+    padding-top: 2.5rem;
 }
 
 .banner-top,
 .banner-bottom {
-    height: 124px;
+    height: 7.75rem;
 }
 
 .banner-bottom {
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .banner img {
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 840px;
+  max-width: 52.5rem;
   position: relative;
-  margin: 0 18px 0 24px;
+  margin: 0 1.125rem 0 1.5rem;
   height: auto;
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 /* Ẩn các slider */
 .mySlides {
@@ -231,11 +231,11 @@ html {
 }
 
 .mySlides img {
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .dot {
-  cursor: pointer;
+    cursor: pointer;
   height: 13px;
   width: 13px;
   background-color: rgb(100, 255, 254);
@@ -243,7 +243,7 @@ html {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  padding-bottom: 2 rem;
+  padding-bottom: 2 ;
   margin-bottom: 30px;
 }
 /* khi được hover, active đổi màu nền */
@@ -287,36 +287,36 @@ html {
 
 /* Category (danh mục) */
 .category {
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 3.75rem;
+    padding-bottom: 3.125rem;
 }
 
 .category .category-item {
     text-align: center;
-    margin-left: 120px;
-    padding-top: 36px;
+    margin-left: 7.5rem;
+    padding-top: 2.25rem;
 }
 
 .category .category-item .item {
-    max-width: 116px;
+    max-width: 11rem;
 }
 
 .category .category-item .item:hover {
     background-color: #fff;
     border: 1px solid blue;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .category .category-item img {
-    width: 100px;
-    height: 100px;
-    padding-top: 4px;
+    width: 6.25rem;
+    height: 6.25rem;
+    padding-top: 0.25rem;
 }
 
 .category .category-item p {
-    padding-top: 20px;
-    padding-bottom: 4px;
+    padding-top: 1.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .width a {
@@ -326,7 +326,7 @@ html {
 
 /* List-section */
 .list-section {
-    padding: 60px 0 50px;
+    padding: 3.75rem 0 3.125rem;
     position: relative;
 }
 .item-img {
@@ -334,15 +334,15 @@ html {
 }
 
 .lists-item {
-    padding-top: 36px;
-    margin-left: 83px;
+    padding-top: 2.25rem;
+    margin-left: 5.1875rem;
 }
 
 .list-item {
-    max-width: 230px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #e7e3e3;
-    padding-bottom: 8px;
+    max-width: 14.375rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem #e7e3e3;
+    padding-bottom: 0.5rem;
 }
 
 .list-item:hover {
@@ -352,45 +352,45 @@ html {
 
 .list-item .name, 
 .list-item .price {
-    padding: 12px 8px 0;
+    padding: 0.75rem 0.5rem 0;
 }
 
 .list-item .price {
     color: #0072bc;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .list-item .buy-item {
    width: 92%;
-   margin: 12px 0 12px 8px;
+   margin: 0.75rem 0 0.75rem 0.5rem;
    background-color: #5dac46;
    color: #fff;
-   height: 44px;
+   height: 2.75rem;
    cursor: pointer;
    border: none;
-   border-radius: 10px;
-   font-size: 16px;
+   border-radius: 0.625rem;
+   font-size: 1rem;
 }
 
 .view-all {
     position: absolute;
-    top: 68px;
+    top: 4.25rem;
     right: 0;
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: #0072bc;
     text-decoration: none;
 }
 /* Footer */
 #footer {
     background-color: #e7e7e7;
-    min-height: 300px;
-    padding-bottom: 50px;
+    min-height: 18.75rem;
+    padding-bottom: 3.125rem;
 }
 
 .socials-list {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.25rem;
 }
 
 .nav-footer .footer-h {
@@ -400,7 +400,7 @@ html {
 
 .nav-footer li {
     list-style: none;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .nav-footer li a {
@@ -416,8 +416,8 @@ html {
 
 /* Root-chat */
 #root {
-    height: 30px;
-    width: 390px;
+    height: 1.875rem;
+    width: 24.375rem;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -428,21 +428,21 @@ html {
     color: #fff;
     background-color: rgb(27, 116, 231);
     position: relative;
-    padding-left: 30px;
-    padding-right: 8px;
+    padding-left: 1.875rem;
+    padding-right: 0.5rem;
     cursor: pointer;
-    border-radius: 10px 10px 4px 4px;
+    border-radius: 0.625rem 0.625rem 0.25rem 0.25rem;
 }
 
 .chat-item {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 0.3125rem;
+    left: 0.3125rem;
 }
 
 .chat-comment {
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     display: inline-block;
 }
 
@@ -455,7 +455,7 @@ html {
 
 .muity-root {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Open Sans";
 }
 
@@ -469,8 +469,8 @@ html {
 
 .modal-root-container {
     position: relative;
-    width: 390px;
-    box-shadow: 0 0 10px #e7e3e3;
+    width: 24.375rem;
+    box-shadow: 0 0 0.625rem #e7e3e3;
     animation: modalchatFadeIn ease 0.5s;
 }
 
@@ -480,11 +480,11 @@ html {
 
 .modal-root-close {
     position: absolute;
-    top: 17px;
-    right: 12px;
+    top: 1.0625rem;
+    right: 0.75rem;
     color: #fff;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .modal-root-close:hover {
@@ -493,49 +493,49 @@ html {
 
 header.modal-root-header {
     background-color: rgb(27, 116, 231);
-    height: 50px;
+    height: 3.125rem;
     color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     font-family: "Open Sans";
-    line-height: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    line-height: 3.125rem;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
 }
 
 .modal-root-body {
-    padding: 16px 16px 105px;
+    padding: 1rem 1rem 6.5625rem;
     background-color: #fff;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
 }
 
 .modal-infor {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Open Sans";
 }
 
 .modal-chat {
     display: flex;
-    margin: 4px 0;
+    margin: 0.25rem 0;
     flex-direction: column;
 }
 
 .form-infor {
     width: 100%;
-    padding: 8.5px 14px;
-    margin: 4px 0;
+    padding: 0.53125rem 0.875rem;
+    margin: 0.25rem 0;
     outline:#026ae3;
 }
 
 .modal-select select{
-    padding: 8.5px 14px;
+    padding: 0.53125rem 0.875rem;
     width: 100%;
     outline:#026ae3;
 }
 
 .modal-select {
-    padding-bottom: 18px;
+    padding-bottom: 1.125rem;
 }
 
 .modal-message {
@@ -543,8 +543,8 @@ header.modal-root-header {
 }
 
 .form-message {
-    height: 80px;
-    padding: 16.5px 14px;
+    height: 5rem;
+    padding: 1.03125rem 0.875rem;
     width: 100%;
     outline:#026ae3;
 }
@@ -555,16 +555,16 @@ header.modal-root-header {
     left: 30%;
     color: rgb(255, 255, 255);
     background-color: rgb(27, 116, 231);
-    padding: 12px 16px;
-    font-size: 14px;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
     border: none;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 /* Tạo hiệu ứng modal chat */
 @keyframes modalchatFadeIn {
     from {
-        transform: translateY(100px);
+        transform: translateY(6.25rem);
     }
     to {
         transform: translateY(0);
@@ -589,18 +589,18 @@ header.modal-root-header {
 }
 
 .modal-container {
-    width: 356px;
-    min-height: 200px;
+    width: 22.25rem;
+    min-height: 12.5rem;
     background-color: #fff;
     position: relative;
-    padding: 24px 32px;
-    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    border-radius: 0.625rem;
 }
 
 .modal-close {
     position: absolute;
-    top: 30px;
-    right: 24px;
+    top: 1.875rem;
+    right: 1.5rem;
 }
 
 .modal-close:hover {
@@ -610,26 +610,26 @@ header.modal-root-header {
 
 .modal-register-header {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 
 .modal-acc {
     border-bottom: 1px solid #ccc;
-    font-size: 24px;
-    padding-top: 12px;
+    font-size: 1.5rem;
+    padding-top: 0.75rem;
 }
 
 .modal-input {
     width: 87%;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .modal-accept {
-    font-size: 12px;
-    padding-top: 10px;
-    padding-bottom: 18px;
+    font-size: 0.75rem;
+    padding-top: 0.625rem;
+    padding-bottom: 1.125rem;
 }
 
 .modal-accept a {
@@ -645,33 +645,33 @@ header.modal-root-header {
 
 .btn-rgt {
     width: 100%;
-    height: 56px;
+    height: 3.5rem;
     background-color: #ccc;
     color: #fff;
     border: none;
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 0.625rem;
+    font-size: 1.125rem;
     font-weight: 600;
     cursor: pointer;
 }
 
 .modal-or {
     text-align: center;
-    padding: 12px 0;
+    padding: 0.75rem 0;
 }
 
 .modal-btn-next,
 .modal-btn-next-g {
     width: 100%;
-    height: 50px;
-    border-radius: 10px;
+    height: 3.125rem;
+    border-radius: 0.625rem;
     border: 1px solid #000;
     background-color: #fff;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .modal-btn-next-g {
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .modal-footer a {
@@ -681,6 +681,6 @@ header.modal-root-header {
 
 .modal-help {
     text-align: center;
-    font-size: 14px;
-    padding-top: 20px;
+    font-size: 0.875rem;
+    padding-top: 1.25rem;
 }
