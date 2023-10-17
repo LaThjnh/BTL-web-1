@@ -5,16 +5,12 @@
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
     #header {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        height: 70px;
-        background-color: #0072bc;
-        display: flex;
-        justify-content: left;
-        padding-left: 15px;
-        z-index: 1;
+        
+    }
+
+    #nav {
+        position: relative;
+        margin-left: 100px;
     }
 
     .list-item p {
@@ -25,17 +21,15 @@
         padding: 0 8px;
     }
     #header .header-img {
-        width: 110px;
-        margin-top: -2px;
+        width: 116px;
+        position: absolute;
+        top: 35%;
+        padding-right: 16px;
     }
 
     #header .search-box {
-        background-color: #fff;
-        height: 40px;
-       display: none;
-        margin-top: 14px;
-        border-radius: 10px;
-        width: 190px;
+        /* display: none; */
+        width: 200px;
     }
     
     #header .search-ip {
@@ -46,21 +40,11 @@
     
     #header .header-search {
         padding-top: 12px;
+        padding-right: 10px;
     }
 
     #header .cart {
-        width: 100px;
-        height: 50px;
-        margin-top: 10px;
-        background-color: rgb(50 145 208);
-        color: #fff;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    
-    #header .cart .cart-bt {
-        padding-left: 10px;
+        display: none;
     }
 
     .container {
