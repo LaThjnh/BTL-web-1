@@ -258,6 +258,8 @@ html {
     width: 260px;
     padding-right: 15px;
     border-right: 1px solid #e7e7e7;
+    margin-top: 60px;
+    border-top: solid 2px rgb(241, 242, 243);
 }
 
 .sidebar .list-box {
@@ -290,6 +292,10 @@ html {
 }
 .item-img {
     width: 100%;
+}
+
+.bait{
+    height: 60px;
 }
 
 .list-item {
