@@ -11,11 +11,11 @@
 <body>
     <div id="main">
         <div id="header">
-            <img src="./imgs/header/logo.svg" class="header-img" alt="">
+            <a href="home.html"><img class="header-img" src="./imgs/header/logo.svg" alt=""></a>
             <ul id="nav">
                 <li><a href="home.html">Home</a></li>
                 <li>
-                    <a href="#">
+                    <a href="#menu">
                         <i class="nav-menu ti-menu-alt"></i>
                         Danh mục
                         <i class="nav-arrow-down ti-angle-down"></i>
@@ -27,13 +27,10 @@
                         <li><a href="duocpham.html">Thiết bị y tế</a></li>
                     </ul>
                 </li>
+                <li><a href="">Sống khỏe</a></li>
             </ul>
-            <div class="search-box">
-                <input type="text" class="search-ip" placeholder="Bạn đang tìm gì hôm nay..." name="" id="">
-                <i class="header-search ti-search"></i>
-            </div>
-            <button class="cart js-buy"><span>Giỏ hàng</span><i class="cart-bt ti-shopping-cart"></i></button>
-            <div>
+            <div class="right">
+                <button class="cart js-buy"><span>Giỏ hàng</span><i class="cart-bt ti-shopping-cart"></i></button>
                 <div class="register">
                     <button class="btn-register js-register">Đăng kí</button>
                 </div>
@@ -75,13 +72,15 @@
                         </div>
                         <h2 id="thuocthongkedon" class="category-heading">Thuốc thống kê đơn</h2>
                         <div class="row-item">
-                            <div class="list-item col-four col">
-                                <img src="./imgs/duocpham/Acetylcystein 200 Imexpharm (10 vỉ x 10 viên).webp" alt="" class="item-img">
-                                <p class="name">Acetylcystein 200 Imexpharm (10 vỉ x 10 viên)</p>
-                                <br>
-                                <span class="price">147.000 đ/Hộp</span>
-                                <button class="buy-item">Xem chi tiết</button>
-                            </div>
+                            <a href="sanpham1.html">
+                                <div class="list-item col-four col">
+                                    <img src="./imgs/duocpham/Acetylcystein 200 Imexpharm (10 vỉ x 10 viên).webp" alt="" class="item-img">
+                                    <p class="name">Acetylcystein 200 Imexpharm (10 vỉ x 10 viên)</p>
+                                    <br>
+                                    <span class="price">147.000 đ/Hộp</span>
+                                    <button class="buy-item">Xem chi tiết</button>
+                                </div>
+                            </a>
                             <div class="list-item col-four col">
                                 <img src="./imgs/duocpham/Acetylcystein (Hộp 10 vỉ x 10 viên).webp" alt="" class="item-img">
                                 <p class="name">Acetylcystein (Hộp 10 vỉ x 10 viên)</p>

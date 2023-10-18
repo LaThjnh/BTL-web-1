@@ -27,24 +27,23 @@
         padding-right: 16px;
     }
 
-    #header .search-box {
-        /* display: none; */
-        width: 200px;
-    }
-    
-    #header .search-ip {
-        border: none;
-        outline: none;
-        padding-right: 10px;
-    }
-    
-    #header .header-search {
-        padding-top: 12px;
-        padding-right: 10px;
+    .right {
+        margin-left: 5rem;
     }
 
     #header .cart {
-        display: none;
+        width: 6rem;
+        height: 3.125rem;
+        margin-top: 0.625rem;
+        background-color: rgb(50 145 208);
+        color: #fff;
+        border: none;
+        border-radius: 0.625rem;
+        cursor: pointer;
+    }
+
+    #header .cart .cart-bt {
+        padding-left: 0.5rem;
     }
 
     .container {
