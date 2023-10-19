@@ -242,7 +242,9 @@ nav{
     font-size: 18px;
     
 }
-
+.product-info, .product-brand {
+    display: none;
+}
 
 .product-description-content-p div{
     line-height: 20px;
@@ -250,6 +252,11 @@ nav{
     padding: 6px 10px;
 }
 
-.product-description-choose:first-child{
+.active{
     color: #0072bc;
+    text-decoration: underline;
+}
+
+.product-description-content{
+    min-height: 300px;
 }
