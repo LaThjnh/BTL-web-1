@@ -28,18 +28,11 @@
     }
 
     .right {
-        margin-left: 5rem;
+        
     }
 
     #header .cart {
         width: 6rem;
-        height: 3.125rem;
-        margin-top: 0.625rem;
-        background-color: rgb(50 145 208);
-        color: #fff;
-        border: none;
-        border-radius: 0.625rem;
-        cursor: pointer;
     }
 
     #header .cart .cart-bt {

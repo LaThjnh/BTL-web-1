@@ -59,6 +59,10 @@ html {
     flex-direction: column;
     min-height: 100vh;
 }
+
+.text-a {
+    color: #000;
+}
 /* Header */
 #header {
     position: fixed;
@@ -67,18 +71,20 @@ html {
     left: 0;
     height: 4.375rem;
     background-color: #0072bc;
-    display: flex;
-    padding-left: 0.9375rem;
     z-index: 1;
 }
 
 #header > a {
-    margin: auto;
+    float: left;
+    padding: 0.9375rem 0.9375rem;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
 }
 
 a .header-img {
     width: 10rem;
     cursor: pointer;
+    display: block;
 }
 
 
@@ -87,7 +93,7 @@ a .header-img {
 }
 
 #nav {
-    padding-left: 10px;
+    display: inline-block;
 }
 
 #nav li {
@@ -143,7 +149,7 @@ a .header-img {
 }
 
 .right {
-    margin-left: 28.5rem;
+    float: right;
 }
 
 #header .cart {
@@ -286,7 +292,7 @@ a .header-img {
 
 .category .category-item {
     text-align: center;
-    margin-left: 7.5rem;
+    margin-left: 3.5rem;
     padding-top: 2.25rem;
 }
 
