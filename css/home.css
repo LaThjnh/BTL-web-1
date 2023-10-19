@@ -61,7 +61,7 @@ html {
 }
 
 .text-a {
-    color: #000;
+    color: #000   !important;
 }
 /* Header */
 #header {
