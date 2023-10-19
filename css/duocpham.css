@@ -302,6 +302,12 @@ a .header-img {
 }
 
 .list-item .name, 
+
+.name{
+    color: #000;
+    padding: 12px 8px 0;
+}
+
 .list-item .price {
     padding: 12px 8px 0;
 }
