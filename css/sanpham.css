@@ -260,3 +260,10 @@ nav{
 .product-description-content{
     min-height: 300px;
 }
+.product-info{
+    text-align: center;
+}
+
+.product-info div{
+    padding-bottom: 10px;
+}
