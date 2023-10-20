@@ -203,14 +203,6 @@ nav{
     font-size: 12px;
     padding: 0 5px;
 }
-.ti-truck,
-.ti-zip,
-.ti-mobile{
-    font-size:  45px;
-    margin: 10px 0;
-    display: block;
-    color: #187fc2;
-}
 
 .main2{
     width: 100%;
@@ -266,4 +258,11 @@ nav{
 
 .product-info div{
     padding-bottom: 10px;
+}
+.product-information-form1 i{
+    color: ##187fc2;
+    font-size:  45px;
+    margin: 10px 0;
+    display: block;
+    color: #187fc2;
 }
