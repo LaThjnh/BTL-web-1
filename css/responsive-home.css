@@ -27,10 +27,6 @@
         padding-right: 16px;
     }
 
-    .right {
-        
-    }
-
     #header .cart {
         width: 6rem;
     }
@@ -53,6 +49,14 @@
 
     .category .category-item {
         margin-left: 56px;
+    }
+    .end {
+        display: none;
+    }
+
+    .col {
+        margin-left:  1rem;
+        margin-right:  1rem;
     }
 }
 
