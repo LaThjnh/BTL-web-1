@@ -58,8 +58,6 @@ html {
     height: 4.375rem;
     background-color: #0072bc;
     z-index: 1;
-    display: flex;
-    justify-content: space-between;
 }
 
 #header > a {
