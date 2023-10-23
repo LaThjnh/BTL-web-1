@@ -20,13 +20,6 @@
    flex-wrap: wrap;
    box-sizing: border-box;
 }
-
-.chiacotphai {
-    margin-top: 2%;
-    display: flex;
-   flex-wrap: wrap;
-   box-sizing: border-box;
-}
 .cot {
     flex-basis: 33.33%;
     
