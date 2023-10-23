@@ -30,6 +30,11 @@ html {
     clear: both;
 }
 
+.col-four {
+    float: left;
+    width: 25%;
+}
+
 .row-item{
     display: grid;
     grid-template-columns:  1fr 1fr;
