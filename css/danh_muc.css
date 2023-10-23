@@ -30,38 +30,20 @@ html {
     clear: both;
 }
 
-.row-item {
-    margin-left: 8px;
+.row-item{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    column-gap: 20px;
 }
-
-.row-item::after {
-    content: "";
-    display: block;
-    clear: both;
+@media (min-width: 768px){
+    .row-item{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
 }
-
-.col {
-    margin-left: 4px;
-    margin-right: 4px;
-}
-
-.clear {
-    clear: both;
-}
-
-.width {
-    width: calc(100% / 4);
-    float: left;
-}
-
-.col-four {
-    float: left;
-    width: 25%;
-}
-
-.col-five {
-    float: left;
-    width: 20%;
+@media (min-width: 1024px) {
+    .row-item{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 #main {
@@ -76,6 +58,8 @@ html {
     height: 4.375rem;
     background-color: #0072bc;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 #header > a {
@@ -307,11 +291,12 @@ a .header-img {
 
 .name{
     color: #000;
-    padding: 12px 8px 0;
+    padding: 12px 8px ;
 }
 
 .list-item .price {
-    padding: 12px 8px 0;
+    display: block;
+    padding: 12px 8px ;
 }
 
 .list-item .price {
@@ -321,8 +306,9 @@ a .header-img {
 }
 
 .list-item .buy-item {
+    display: block;
    width: 92%;
-   margin: 12px 0 12px 8px;
+   margin: auto;
    background-color: #5dac46;
    color: #fff;
    height: 44px;
@@ -633,4 +619,7 @@ header.modal-root-header {
     text-align: center;
     font-size: 14px;
     padding-top: 20px;
+}
+a {
+    text-decoration: none;
 }
